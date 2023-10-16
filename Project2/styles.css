@@ -1,0 +1,64 @@
+body {
+margin-top: 0em;
+margin-left: 4em;
+margin-right: 4em;
+margin-bottom: 0em;
+background-color: #f9f9f9;
+padding: 20px;
+}
+
+h1 {
+font-family:Roboto slab;
+font-size: 2em;
+color: #9f2042;
+text-align: center;
+}
+
+#details { 
+font-family: Open sans;
+font: size 0.9em; 
+color: #a9a9ba;
+text-align: center;
+}
+
+#p {
+font-family: Open sans;
+font-size: 0.9em;
+text-align: center;
+}
+
+blockquote { 
+font-family: Roboto slab;
+font-size: 1.25em;
+border-style: solid;
+background-color: #d3d3d3;
+border-color: #ececec;
+padding-top: 50px;
+padding-bottom: 50px;
+padding-left: 50px;
+padding-right: 50px;
+text-align: center;
+}
+
+#buttons a:link {
+    
+color: #ec8295;
+   padding: 10px;
+    border: 2px solid black;
+    text-decoration: none;
+}
+  
+#buttons a:hover{
+    background-color: #a9a9ba;
+  }
+#buttons a:visited {
+    color:#ec8295;
+    border: 2px round black;
+}
+
+#buttons{
+    padding-left: 50px;
+    font-family: Open sans;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
