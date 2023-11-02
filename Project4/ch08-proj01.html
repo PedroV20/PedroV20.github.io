@@ -13,19 +13,19 @@
 <body>
 <table class="table-fill">
 
-    <script src="js/ch08-proj01.js" type = "text/JavaScript"></script>
     <thead>
-       
-        <tr></tr>
-        <tr><th colspan="2">Product</th><th>#</th><th>Price</th><th>Amount</th></thead>
+        <tr><th colspan="2">Product</th><th>#</th><th>Price</th><th>Amount</th>
+    </thead>
+    <tbody>    
+        <script src="js/ch08-proj01.js" type = "text/JavaScript"></script>
        
         <tr class="totals">
             <td colspan="4">Subtotal</td>
-            <td>$550.00</td>
+            <td><script>document.write(calculateSubTotal(cart))</script> </script></td>
         </tr>
         <tr class="totals">
             <td colspan="4">Tax</td>
-            <td>$55.00</td>
+            <td><script>//document.write(calculateTax(tax_rate))</script></td>
         </tr>
         <tr class="totals">
             <td colspan="4">Shipping</td>
