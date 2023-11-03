@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 const tax_rate = prompt('Enter tax rate (0.10)');
 const shipping_threshold = prompt('Enter shipping threshold (1000)');
+=======
+>>>>>>> b2e5bd120746847a41318bbe866976dbda375763
 
 for( let c of cart){
    outputClassRow(c)
@@ -13,5 +16,3 @@ function outputClassRow(thisData){
    document.write('<td>' + calculateTotal(thisData.product.price, thisData.quantity) + '</td>')
    document.write('</tr>')
 }
-
-
