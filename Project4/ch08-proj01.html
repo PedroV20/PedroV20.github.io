@@ -18,22 +18,22 @@
     </thead>
     <tbody>    
         <script src="js/ch08-proj01.js" type = "text/JavaScript"></script>
-       
+
         <tr class="totals">
             <td colspan="4">Subtotal</td>
             <td><script>document.write(calculateSubTotal(cart))</script> </script></td>
         </tr>
         <tr class="totals">
             <td colspan="4">Tax</td>
-            <td><script>//document.write(calculateTax(tax_rate))</script></td>
+           <td><script>document.write(calculateTax(tax_rate))</script></td>
         </tr>
         <tr class="totals">
             <td colspan="4">Shipping</td>
-            <td>$0.00</td>
+            <td><script>document.write(calculateShipping(shipping_threshold))</script></td>
         </tr>
         <tr class="totals">
             <td colspan="4" class="focus">Grand Total</td>
-            <td class="focus">$605.00</td>
+            <td class="focus"><script>document.write(calculateGrandTotal())</script></td>
         </tr>
     </tbody>
 </table>
